@@ -23,6 +23,8 @@ SOFTWARE.
 */
 
 //Documentation:
+//Extracts the parts of an e-mail adddress in the sender_name<email_name@domain_name> or email_name@domain_name format.
+//Note: This might not work with other formats.
 //senderInfo should be passed as a string.
 //Returns the emailInformation object with the following attributes (if present in the senderInfo)
 // emailInformation.senderName -> The name of the sender.
